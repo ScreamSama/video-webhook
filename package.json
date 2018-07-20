@@ -1,0 +1,14 @@
+{
+  "name": "video-webhook",
+  "version": "1.0.0",
+  "description": "Video Webhook Sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Udit Ghadei",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
