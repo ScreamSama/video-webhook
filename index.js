@@ -46,7 +46,7 @@ restService.post("/audio", function(req, res) {
 restService.post("/video", function(req, res) {
 
 
-switch (req.body.result.parameters.videoname.toLowerCase()) {
+switch (req.body.result.parameters.video.toLowerCase()) {
     //Speech Synthesis Markup Language 
     case "chatbot":
       speech ='Playing Chatbot Demo..';      
