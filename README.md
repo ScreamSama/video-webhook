@@ -5,4 +5,4 @@
 
 # How it works?
 - Push this app to Heroku
-- Test the API https://webhook-echo-sample.herokuapp.com/echo - use www.hurl.it to test it
+- Test the API https://webhook-echo-sample.herokuapp.com/video - use www.hurl.it to test it
