@@ -1,0 +1,6 @@
+{
+  "name": "video-webhook",
+  "description": "Video Webhook Sample",
+  "repository": "https://github.com/SunilSyal/Webhook-and-API.AI-Samples.git",
+  "keywords": ["api.ai", "dialogflow", "natural language","webhook","video player"]
+}
