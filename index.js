@@ -60,10 +60,10 @@ switch (req.body.result.parameters.video.toLowerCase()) {
                     description: 'Demo Video for Chatbots',
                     contentUrl: 'https://www.youtube.com/watch?v=CIufvXWKw0k',
                     largeImage: {
-                      url= 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
+                      url: 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
                     },
                     icon: {
-                      url= 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
+                      url: 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
                     }
                 }
               ]
