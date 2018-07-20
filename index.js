@@ -58,7 +58,7 @@ switch (req.body.result.parameters.video.toLowerCase()) {
                 {
                     name: 'chatbot',
                     description: 'Demo Video for Chatbots',
-                    contentUrl: https://www.youtube.com/watch?v=CIufvXWKw0k,
+                    contentUrl: 'https://www.youtube.com/watch?v=CIufvXWKw0k',
                     largeImage: {
                       url= 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
                     },
