@@ -45,27 +45,12 @@ restService.post("/audio", function(req, res) {
 
 restService.post("/video", function(req, res) {
   var speech="";
-switch (req.body.result.parameters.video.toLowerCase()) {
-    //Speech Synthesis Markup Language 
-    case "chatbot":
-      speech ='Playing Chatbot Demo..';      
-  }
+
   return res.json({
-    speech: speech,
-    mediaType: 'MEDIA_TYPE_UNSPECIFIED',
-    mediaObjects: [
-                {
-                    name: 'chatbot',
-                    description: 'Demo Video for Chatbots',
-                    contentUrl: 'https://www.youtube.com/watch?v=CIufvXWKw0k',
-                    largeImage: {
-                      url: 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
-                    },
-                    icon: {
-                      url: 'https://cdn.unwire.pro/wp-content/uploads/2016/07/Facebook-Chatbot.jpg'
-                    }
-                }
-              ],
+    speech:
+      '<speak>  <audio src="http://techslides.com/demos/sample-videos/small.mp4">did not get your MP3 audio file</audio></speak>',
+    displayText:
+      '<speak>  <audio src="http://techslides.com/demos/sample-videos/small.mp4">did not get your MP3 audio file</audio></speak>',
     source: "video-webhook"
   });
 });
